@@ -1,0 +1,23 @@
+package JavaTechnoStudy.day32.nonAccessModifier.staticModifier;
+
+public class Simple {
+    //class member/variable/field
+    static int a;
+
+    //instance member/variable/field
+    int b;
+
+    public static void main(String[] args) {
+        Simple s1 = new Simple();
+        s1.increase();
+
+        Simple s2 = new Simple();
+        s2.increase();
+    }
+
+    void increase() {
+        a++;
+        b++;
+    }
+
+}

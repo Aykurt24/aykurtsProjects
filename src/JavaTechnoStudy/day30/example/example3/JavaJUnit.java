@@ -1,0 +1,43 @@
+package JavaTechnoStudy.day30.example.example3;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class JavaJUnit {
+
+
+    @Test     // bunu kendimiz yaziyoruz
+    public void testGetArea() {
+        Rectangle rect1 = new Rectangle(5, 10);
+        int actualArea = rect1.getArea();
+
+        Assert.assertEquals("getArea method is not correct", 50, actualArea);
+        // burda assert. yazip cikan listede    uygun metodu seciyoruz
+    }
+
+    @Test
+    public void testSum() { // return etmeyecegimiz icin void methodunu yazdik
+
+        int sum = 10 + 10;
+
+        Assert.assertEquals(20, sum);
+    }
+
+    @Test
+    public void testTrue() {
+        boolean actual = "Elma is good".contains("Elma"); //(true && true) || (false && true);
+
+        Assert.assertTrue(actual);
+//        Assert.assertEquals(true, actual);
+    }
+
+    @Test
+    public void testNull() {
+        Rectangle rect1 = new Rectangle(1, 2);
+
+        Assert.assertNotNull("Maybe you forget to initialize rect1", rect1);
+
+        int actualArea = rect1.getArea();
+    }
+
+}
