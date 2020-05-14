@@ -22,3 +22,10 @@
 // Part 5
 // try to separate profile attributes to new class named Profile
 
+pulic static User creatUser (String username, String password, Profile profile){
+    User user = new User ();
+    user.username = username;
+    user.password = password;
+    user.profile.firstName = profile.firstName;
+
+)

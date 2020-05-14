@@ -13,11 +13,11 @@ public class Task1 {
     // create 3 objects of student class and print them
 
     public static void main(String[] args) {
-//        1. way create three objects in main
-//        Student student1 = new Student();
-//        student1.name = "John";
-//        student1.grade = 69;
-//        System.out.println(student1.name + ": " + student1.grade);
+//      1. way create three objects in main
+        Student student1 = new Student();
+        student1.name = "John";
+        student1.grade = 69;
+        System.out.println(student1.name + ": " + student1.grade);
 //
 //        Student student2 = new Student();
 //        student2.name = "Marta";

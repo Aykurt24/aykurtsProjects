@@ -3,3 +3,30 @@ create class Rectangle with attributes:length and width
 create method in class Rectangle that calculate perimeter
 
 create class Task2 and create objects of Rectangle and print perimeters
+
+class Rectangle {
+
+int length , width ;
+
+int getPerimeter(){
+
+return 2*(length+width)
+}
+}
+
+class Task2 {
+
+public main static void (String[] args){
+
+        Rectangle rectangle = new Rectangle;
+        rectangle.length = 2;
+        rectangle.width = 4;
+
+        rectangle.getPerimeter();
+
+
+}
+
+
+}
+

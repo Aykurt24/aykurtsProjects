@@ -21,5 +21,6 @@ public class Task1 {
         System.out.println("Total Bill: $" + customer1bill);
         System.out.println("Total Bill: $" + customer1.electricityAccount.bill);
 
+
     }
 }
