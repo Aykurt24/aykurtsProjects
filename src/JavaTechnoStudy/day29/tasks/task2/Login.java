@@ -43,5 +43,4 @@ public class Login {  //class name
             System.out.println("Password is null or empty");
         }
     }
-
 }

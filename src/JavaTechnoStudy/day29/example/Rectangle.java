@@ -9,6 +9,5 @@ public class Rectangle {
 //        return MyMath.abs(length) * MyMath.abs(width);
         return length * width;
     }
-
 }
 

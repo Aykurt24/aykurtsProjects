@@ -17,6 +17,6 @@ public class Task1 {
         System.out.println("After change: " + Arrays.toString(months));
 
         //changing String[] months
-//        months = new String[]{"Winter", "Summer"};
+        //months = new String[]{"Winter", "Summer"};
     }
 }

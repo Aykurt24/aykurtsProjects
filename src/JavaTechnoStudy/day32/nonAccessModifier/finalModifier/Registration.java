@@ -16,7 +16,7 @@ public class Registration {
 
         System.out.println("Fingerprint code1: " + person.fingerprintCode);
         // after making 'fingerprintCode' final, you can't change it
-        // person.fingerprintCode = 0004;
+        //person.fingerprintCode = 0004;
         System.out.println("Fingerprint code2: " + person.fingerprintCode);
     }
 

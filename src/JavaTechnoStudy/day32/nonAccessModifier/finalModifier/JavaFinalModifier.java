@@ -16,8 +16,8 @@ public class JavaFinalModifier {
 
     public static void main(String[] args) {
         JavaFinalModifier jfm = new JavaFinalModifier(10);
-        // cannot change final field
-        // jfm.number = 10;
+//         cannot change final field
+//         jfm.number = 10;
     }
 
 }

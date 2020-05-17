@@ -1,6 +1,5 @@
 package JavaTechnoStudy.day30.example.example2;
 
-
 public class JavaThisKeyword {
 
     public static void main(String[] args) {

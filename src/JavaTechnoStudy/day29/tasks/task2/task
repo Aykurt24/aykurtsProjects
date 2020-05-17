@@ -2,6 +2,7 @@
 create class Login with attributes
 1. username
 2. password
+3. role
 
 ***Part 2***
 create class Task2, create two objects of Login class

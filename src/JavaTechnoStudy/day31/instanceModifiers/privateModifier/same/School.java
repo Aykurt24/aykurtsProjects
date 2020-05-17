@@ -14,6 +14,5 @@ public class School {
         // cannot use/call private method in different class
         // person.getAge();
 
-
     }
 }

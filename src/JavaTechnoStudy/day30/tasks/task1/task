@@ -6,3 +6,51 @@
 
 // in Task1 class create at least 4 object of that class
 // call method to get attributes and print it
+
+class Bank {
+
+String bankName;
+String accountNumber;
+boolean reliability;
+
+public Bank(){
+
+name = "Dogan";
+
+}
+
+public Bank(String bankName,String accountNumber,boolean reliability){
+
+    Bank.bankName = "Falcon";
+    Bank.accountNumber = "12 3243 657 7878";
+    Bank.reliability = true;
+
+}
+
+public Bank (String bankName,String accountNumber,boolean reliability ){
+
+        this.bankName;
+        this.accountNumber;
+        this.reliability;
+
+}
+
+public static Bank printMybank (String bankName,String accountNumber,boolean reliability){
+
+        System.out.println("\nBank Name: " + this.bankName
+                            "\nAccount Number:" + this.accountNumber
+                            "\nReliability: " + this.reliability);
+
+}
+
+public String toString (){
+
+return "\nBank Name: " + this.bankName
+       "\nAccount Number:" + this.accountNumber
+        "\nReliability: " + this.reliability;
+
+}
+
+
+
+}

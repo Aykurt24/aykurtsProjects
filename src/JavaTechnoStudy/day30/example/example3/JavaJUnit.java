@@ -37,7 +37,7 @@ public class JavaJUnit {
 
         Assert.assertNotNull("Maybe you forget to initialize rect1", rect1);
 
-        int actualArea = rect1.getArea();
+       // int actualArea = rect1.getArea();
     }
 
 }

@@ -7,5 +7,6 @@ public class OtherPackageClass {
     public static void main(String[] args) {
 //        ClassWithDefaultModifier sample1 = new ClassWithDefaultModifier();
         PublicModifierClass sample2 = new PublicModifierClass();
+
     }
 }

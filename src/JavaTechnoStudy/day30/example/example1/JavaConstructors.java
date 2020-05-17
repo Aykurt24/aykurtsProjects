@@ -15,9 +15,11 @@ class Student {
 
     //overloaded constructor
     public Student(String fname, String lname, double result) {
+
         firstName = fname;
         lastName = lname;
         examResult = result;
+
     }
 
     //overloaded constructor
@@ -39,6 +41,13 @@ public class JavaConstructors {
 
         Student student2 = new Student();
         System.out.println(student2);
+
+        Student student3 = new Student("Dogan", "Ali");
+
+        Student student4 = new Student("Can", "Orange", 100.0);
+        System.out.println(student4);
+
+
     }
 
 }

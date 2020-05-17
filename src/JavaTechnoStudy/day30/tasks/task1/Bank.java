@@ -42,7 +42,17 @@ public class Bank {
                 "\nTrustworthiness: " + this.trustworthiness +
                 "\n---------------------------"
                 ;
+    }
 
+    public void printMybank(String name, int serial, boolean reliability) {
+
+        System.out.println("\nBank Name: " + this.name +
+                "\nAccount Number:" + this.serial +
+                "\nReliability: " + this.trustworthiness);
 
     }
+
+
 }
+
+

@@ -6,5 +6,6 @@ public class Task2 {
         Login login1 = Login.createAdmin("techno", "1212qa"); //object from login
 
         Login login2 = Login.createUser("hacker", "@#$&qwegg"); // object from login
+
     }
 }
