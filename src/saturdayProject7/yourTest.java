@@ -100,4 +100,22 @@ public class yourTest {
 
     }
 
+    @Test
+    public void test8() {
+// age = 18
+        String myDOB = "05/17/2002";
+        String actual = Users.checkAge(myDOB);
+        String expected = "You should be at least 18 years old to get a credit card.";
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void test9() {
+// 0 < age (If customer make  a mistake )
+        String myDOB = "05/17/2022";
+        String actual = Users.checkAge(myDOB);
+        String expected = "You should be at least 18 years old to get a credit card.";
+        Assert.assertEquals(expected, actual);
+    }
+
 }
