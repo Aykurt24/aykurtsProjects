@@ -3,6 +3,7 @@ package JavaTechnoStudy.day27;
 public class JavaClassAndObject {
 
     public static void main(String[] args) {
+
         Car toyota = new Car();             // This is our object to call instance variable which is inside of "CAR" class.
         toyota.model = "Toyota Camry";      // Shortly, to create an object helps us to call variable which is in the other class.
         toyota.manufactureDate = 2020;
@@ -20,3 +21,4 @@ class Car {
     int manufactureDate;
     double motorSize;
 }
+

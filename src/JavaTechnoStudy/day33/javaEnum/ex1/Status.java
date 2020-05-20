@@ -6,5 +6,5 @@ package JavaTechnoStudy.day33.javaEnum.ex1;
     //inactive
  */
 public enum Status {                    // enum is a special class
-    ACTIVE, LOGGED_IN, INACTIVE
+    ACTIVE, LOGGED_IN, INACTIVE,
 }

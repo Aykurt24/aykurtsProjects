@@ -3,6 +3,8 @@ package saturdayProject7;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.time.LocalDate;
+
 public class yourTest {
 
     /*
@@ -103,10 +105,19 @@ public class yourTest {
     @Test
     public void test8() {
 // age = 18
-        String myDOB = "05/17/2002";
-        String actual = Users.checkAge(myDOB);
+
+        LocalDate a = LocalDate.now();
+        int year = a.minusYears(18).getYear();
+        int month = a.getMonthValue();
+        int day = a.getDayOfMonth();
+        String strY = "";
+        strY = strY.concat(String.valueOf(month)) + "/" + strY.concat(String.valueOf(day)) + "/" + strY.concat(String.valueOf(year));
+
+        String myDOB = strY;
+        String actual = Users.checkAge(strY);
         String expected = "You should be at least 18 years old to get a credit card.";
         Assert.assertEquals(expected, actual);
+
     }
 
     @Test

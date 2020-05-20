@@ -10,8 +10,6 @@ public class Task3 {
         System.out.println("Fact: " + t.factorial);
 
         System.out.println("Fact: " + t.factorial(5));
-
-
     }
 
     public int fact(int n) {

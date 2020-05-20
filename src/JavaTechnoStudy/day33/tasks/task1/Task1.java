@@ -12,7 +12,7 @@ public class Task1 {
     //protected static final void main(String[] args) {}
 
     //4) wrong
-    //static final void main3(String[] args) {}
+    //static final void main32(String[] args) {}
 
     //5) wrong
     //static void main(String[] args) {}

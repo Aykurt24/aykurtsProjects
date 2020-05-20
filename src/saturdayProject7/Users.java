@@ -76,7 +76,7 @@ public class Users {
 
         String msg4 = "";
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M/dd/yyyy");
         LocalDate dateOfBirth = LocalDate.parse(myDOB, formatter);
         LocalDate currentDate = LocalDate.now();
         int age = Period.between(dateOfBirth, currentDate).getYears();

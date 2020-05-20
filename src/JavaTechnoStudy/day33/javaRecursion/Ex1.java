@@ -9,18 +9,20 @@ public class Ex1 {
         }
     }
 
-    static int print1to5(int i) {
+    static int printito5(int i) {
         System.out.println(i);
         if (i == 5) {
             return -1;
         }
 
-        return print1to5(i + 1);
+        return printito5(i + 1);
     }
 
 
     public static void main(String[] args) {
 //        print1to5();
-        print1to5(1);
+        printito5(4);
+        System.out.println("===================");
+        print1to5();
     }
 }
