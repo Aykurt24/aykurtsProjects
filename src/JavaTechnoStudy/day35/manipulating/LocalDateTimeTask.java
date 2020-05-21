@@ -28,7 +28,7 @@ public class LocalDateTimeTask {
     @Test
     public void testMinus() {
         LocalDateTime dateTime = LocalDateTime.of(2020, Month.MAY, 11, 15, 0);
-        LocalDateTime actualDateTime = dateTime.minusYears(1).minusMonths(1).minusDays(1) //
+        LocalDateTime actualDateTime = dateTime.minusYears(1).minusMonths(1).minusDays(1)
                 .minusHours(1).minusMinutes(1);
 
         String actual = actualDateTime.format(DateTimeFormatter.ofPattern("HH:mm MM dd yyy"));

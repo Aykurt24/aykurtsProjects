@@ -15,6 +15,11 @@ public class ComparingDateAndTime {
         boolean equal = today.isEqual(yesterday);
         boolean leapYear = today.isLeapYear();
 
+        System.out.println(after);
+        System.out.println(before);
+        System.out.println(equal);
+        System.out.println(leapYear);
+
 
         LocalTime time = LocalTime.now();
 //        time.isBefore()

@@ -12,8 +12,8 @@ public class JavaTryCatchEx1 {
         } catch (Exception exception) {
             System.out.println("something gone wrong, please look to variables");
             System.out.println(exception);
-            exception.printStackTrace();
-            System.err.println("Error is here");
+//            exception.printStackTrace();
+//            System.err.println("Error is here");
         } finally {
             System.out.println("a: " + a);
             System.out.println("b: " + b);

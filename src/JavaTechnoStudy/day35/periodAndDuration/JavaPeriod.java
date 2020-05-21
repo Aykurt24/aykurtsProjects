@@ -16,6 +16,9 @@ public class JavaPeriod {
         int months = between.getMonths();
         int days = between.getDays();
 
+        System.out.println(years);
+        System.out.println(months);
+        System.out.println(days);
 
         Period periodOf3days = Period.ofDays(3);
         Period quarterOfYear = Period.ofMonths(3);

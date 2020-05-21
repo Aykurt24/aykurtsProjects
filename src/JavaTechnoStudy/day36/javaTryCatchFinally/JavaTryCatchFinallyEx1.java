@@ -8,7 +8,7 @@ public class JavaTryCatchFinallyEx1 {
     public static void main(String[] args) {
 
         try {
-            LocalDate date = LocalDate.of(2018, Month.APRIL, 40);
+            LocalDate date = LocalDate.of(2019, Month.FEBRUARY, 29);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
             System.out.println("Please provide correct date");

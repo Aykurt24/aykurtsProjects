@@ -12,10 +12,14 @@ public class JavaDuration {
         Duration between = Duration.between(midnight, onePM);
         long seconds = between.getSeconds();
 
+        System.out.println(seconds);
+
         Duration durationJavaCourse = Duration.ofHours(3);
 
         LocalTime startOfJavaCourse = LocalTime.of(10, 00);
         LocalTime endOfJavaCourse = startOfJavaCourse.plus(durationJavaCourse);
+
+        System.out.println(endOfJavaCourse);
 
     }
 }

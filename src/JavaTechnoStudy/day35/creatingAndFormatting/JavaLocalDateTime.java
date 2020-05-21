@@ -18,11 +18,18 @@ public class JavaLocalDateTime {
         int year = localDateTime.getYear();
 
         Month month = localDateTime.getMonth();
-        int monthValue = localDateTime.getMonthValue();
+        System.out.println("=================");
+        System.out.println(month);
+        System.out.println("=================");
 
+        int monthValue = localDateTime.getMonthValue();
         int dayOfYear = localDateTime.getDayOfYear();
         int dayOfMonth = localDateTime.getDayOfMonth();
+
         DayOfWeek dayOfWeek = localDateTime.getDayOfWeek();
+        System.out.println("=================");
+        System.out.println(dayOfWeek);
+        System.out.println("=================");
 
         int hour = localDateTime.getHour();
         int minute = localDateTime.getMinute();
@@ -34,7 +41,8 @@ public class JavaLocalDateTime {
 //        System.out.println("Long DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG)));
 //        System.out.println("Full DateTime: " + localDateTime.format(DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL)));
 
-        System.out.println("HH:mm MM dd yyy: " + localDateTime.format(DateTimeFormatter.ofPattern("HH:mm MM dd yyy")));
+        DateTimeFormatter myFormatter = DateTimeFormatter.ofPattern("hh:MM MM dd yyy");
+        System.out.println("HH:mm MM dd yyy: " + localDateTime.format(myFormatter));
 
 
     }

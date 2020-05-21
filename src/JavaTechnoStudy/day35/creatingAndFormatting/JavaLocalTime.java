@@ -12,10 +12,12 @@ public class JavaLocalTime {
 
         LocalTime localTime1 = LocalTime.of(0, 0);
         LocalTime localTime2 = LocalTime.of(10, 0, 30);
+        LocalTime localTime3 = LocalTime.of(23, 30, 30, 30);
 
         int hour = localTime.getHour();
         int minute = localTime.getMinute();
         int second = localTime.getSecond();
+        int nano = localTime.getNano();
 
 
         System.out.println("Short Time: " + localTime.format(DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT)));
@@ -26,7 +28,7 @@ public class JavaLocalTime {
 //        System.out.println("Full Time: " + localTime.format(DateTimeFormatter.ofLocalizedTime(FormatStyle.FULL)));
 
         localTime = LocalTime.of(19, 00);
-        System.out.println("hh:mm:ss a->" + localTime.format(DateTimeFormatter.ofPattern("hh:mm:ss a")));
+        System.out.println("hh:mm:ss a->" + localTime.format(DateTimeFormatter.ofPattern("hh:mm:ss")));
 
         DateTimeFormatter myCustomFormat = DateTimeFormatter.ofPattern("HH:mm:ss");
         String formattedTime = localTime.format(myCustomFormat);

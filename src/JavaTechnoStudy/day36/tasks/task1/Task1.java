@@ -25,12 +25,13 @@ public class Task1 {
         LocalDate d2 = LocalDate.now();
         Period period = differenceOfTwoDates(d2, d1);
 
-        Assert.assertEquals(11, period.getDays());
+        Assert.assertEquals(20, period.getDays());
     }
 
 
     public int getAge(LocalDate dob) {
-
+        // 11/08/1989
+        // 05/21/2020
         LocalDate today = LocalDate.now();
         return today.getYear() - dob.getYear();
     }
