@@ -13,6 +13,7 @@ public class JavaCheckedException {
         try {
             FileInputStream fis = new FileInputStream("example.txt");
         } catch (FileNotFoundException ex) {
+            System.out.println(ex);
 
         }
 

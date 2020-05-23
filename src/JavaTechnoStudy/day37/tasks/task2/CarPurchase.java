@@ -11,12 +11,12 @@ public class CarPurchase {
     create method 'buy' with enum parameter as conditions of car,
     and throws checked/expected exception if its too old
      */
-    public void buy(Condition condition) throws Exception {
+    public String buy(Condition condition) throws Exception {
         if (condition == Condition.OLD || condition == Condition.WASTE) {
             throw new Exception("this car is not in good shape, please look to other cars");
         }
 
-        System.out.println("Congrats with new car!!");
+        return "Congrats with new car!!";
     }
 
     /*

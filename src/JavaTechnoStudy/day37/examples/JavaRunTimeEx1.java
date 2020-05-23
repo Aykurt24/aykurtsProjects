@@ -15,8 +15,12 @@ public class JavaRunTimeEx1 {
 
         //unchecked(unexpected) exception will be thrown here(Arithmetic exception)
         //we cant predict it before we execute/do that
-        System.out.println("a/b = " + (a / b));
-
+        try {
+            System.out.println("a/b = " + (a / b));
+        } catch (Exception e) {
+            System.out.println("Look your numbers");
+            System.out.println(e);
+        }
         ///java.util.InputMismatchException
     }
 }

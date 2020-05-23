@@ -12,9 +12,11 @@ public class CheckedThrowExample {
 
     public static void main(String[] args) {
         try {
-            goOutside(10);
+            goOutside(20);
         } catch (Exception e) {
-            e.printStackTrace();
+            // e.printStackTrace();
+            System.out.println(e.getMessage());
+            System.out.println("Stay at home and play basketball");
         }
     }
 }

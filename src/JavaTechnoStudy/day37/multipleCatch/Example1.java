@@ -13,6 +13,7 @@ public class Example1 {
             System.out.println("str is empty, no characters in it");
         } catch (RuntimeException e3) {
             System.out.println("other unpredicted situation");
+            System.out.println(e3);
         }
     }
 }

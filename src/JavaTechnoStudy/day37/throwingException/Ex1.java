@@ -12,6 +12,7 @@ public class Ex1 {
 //            System.out.println("Your age is not valid");
             RuntimeException ageIsNotValid = new RuntimeException("Age is not valid, your age should be above 19");
             throw ageIsNotValid;
+
         } else {
             System.out.println("Welcome to driver examination");
         }

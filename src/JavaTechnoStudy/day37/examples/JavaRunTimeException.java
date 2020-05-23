@@ -9,8 +9,17 @@ public class JavaRunTimeException {
 
         int a = 5;
         int b = 0;
+        try {
+            System.out.println(a / b);
+        } catch (Exception e) {
+            System.out.println("Check your variables");
+            System.out.println(e);
+        }
 
-        System.out.println(a / b);
+        int c = 5;
+        int d = 6;
+        System.out.println(c + d);
+
     }
 
 

@@ -64,6 +64,7 @@ public class Registration {
     public int letterCount(String str) {
         int counter = 0;
 
+
         char[] chars = str.toCharArray();
         for (char aChar : chars) {
             if (isLetter(aChar)) {

@@ -6,7 +6,7 @@ public class Application {
         CarPurchase toyota = new CarPurchase();
 
         try {
-            toyota.buy(Condition.NEW);
+            toyota.buy(Condition.OLD);
         } catch (Exception e) {
             System.out.println("condition of car is not good");
             System.out.println(e.getMessage());

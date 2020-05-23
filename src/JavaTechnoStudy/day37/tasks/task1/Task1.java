@@ -14,6 +14,7 @@ public class Task1 {
         String str = scanner.nextLine();
         int integer = convertToInt(str);
 
+
         System.out.println("Integer is: " + integer);
     }
 
@@ -24,6 +25,7 @@ public class Task1 {
         } catch (Exception e) {
             System.out.println("Please, provide correct number in digit format");
             System.out.println("Giving '0' as default number");
+            System.out.println(e);
         }
         return 0;
     }

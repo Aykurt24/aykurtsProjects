@@ -6,5 +6,7 @@ public class Application {
         Registration courseRegistration = new Registration();
 
         courseRegistration.signUp();
+
+
     }
 }
