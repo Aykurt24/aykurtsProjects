@@ -3,52 +3,43 @@ package JavaTechnoStudy.day42.Tasks.Task2;
 import java.util.List;
 
 public class School {
-
     private String name;
-    private String address;
-    private String phoneNumber;
     private String email;
-    private int numberOfStaff;
-    private List<Student> studentList;
-    private int studentCapacity;
+    private String phoneNumber;
+    private String principal;
+    private String address;
+    private int schoolSize;
+    private List<Student> students;
 
-
-    public School(String name, String address, String phoneNumber, String email, int numberOfStaff, List<Student> studentList, int studentCapacity) {
+    public School(String name, String email, String phoneNumber, String principal, String address, List<Student> students) {
         this.name = name;
-        this.address = address;
-        this.phoneNumber = phoneNumber;
         this.email = email;
-        this.numberOfStaff = numberOfStaff;
-        this.studentList = studentList;
-        this.studentCapacity = studentCapacity;
+        this.phoneNumber = phoneNumber;
+        this.principal = principal;
+        this.address = address;
+        this.students = students;
     }
 
-    public int getStudentCapacity() {
-        return studentCapacity;
+    public void setSchoolSize(int schoolSize) {
+        this.schoolSize = schoolSize;
     }
 
-    public void setStudentCapacity(int studentCapacity) {
-        this.studentCapacity = studentCapacity;
-    }
-
-    public void registration(Student student) {
-        if (studentList.size() < getStudentCapacity()) {
-            studentList.add(student);
-        } else throw new RuntimeException("You exceed student limit, cant register more student");
-
+    public void registerStudent(Student student) {
+        if (students.size() >= schoolSize) {
+            throw new RuntimeException("Student limit exceeded, cannot register more students");
+        }
+        students.add(student);
     }
 
 
-    @Override
     public String toString() {
         return "School{" +
                 "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
                 ", email='" + email + '\'' +
-                ", numberOfStaff=" + numberOfStaff +
-                ", studentList=" + studentList +
-                ", studentCapacity=" + studentCapacity +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", principal='" + principal + '\'' +
+                ", address='" + address + '\'' +
+                ", students=" + students +
                 '}';
     }
 }

@@ -1,25 +1,129 @@
-1. What is JDK, JRE and JVM?
-2. Explain  "public static void main(String args[])" in Java ?, can we have multiple main methods?
-3. Why Java is platform independent?
-4. What are wrapper classes in Java?, why we need wrapper classes?
-5. What are constructors in Java?
-6. Can we have multiple constructors in the class?, how?
-7. What is the difference between Constructor vs method?
-8. Can we reuse constructors? if yes, how?
-9. What is the difference between break and continue statements?
-9.1 What if you have nested loop, what then?
-10. Differentiate between static and non-static methods in Java.
-11. Can we call static method using instance variable?
-12. What type of the collections do you use?
-13. What is the difference between LinkedHashSet and TreeSet?
-14. What is the difference between a local variable and an instance variable?
-15. What is final keyword in Java?
-16. What purpose do the keywords final, finally in Java?
-17. What are the different ways to handle exceptions?
-18. What can not we use as a variable/method/class names?
-19. What is the difference between an array and an array list?
-20. Difference between String, StringBuilder, and StringBuffer?
-21. Explain about Public and Private access specifiers?
-22. Which members of class can have access modifiers?
-23. What is the difference between equals() and == in Java?
-24. What are the concepts of OOP in Java?
+1) What is JDK, JRE and JVM?
+
+  jvm -> java virtual machine: run time environment for compiled java class fields
+  jre -> java runtime environment: jvm + library classes, it is  used to run your java application
+  jdk -> java development kit: jre + development tools
+
+  JDK – Java Development Kit which is provides the environment to develop
+  execute the Java program  which includes two things
+  Development Tools and JRE .
+  JRE – Java Runtime Environment
+  JVM – Java Virtual machine
+  JVM checks everything, converts JAVA codes to the bytecode
+
+2)Explain  "public static void main(String args[])" in Java ?
+
+  It is entry point, we can not run the code without main method.
+
+3) Explain  "public static void main(String args[])" in Java ?
+and  can we have multiple main methods?
+ Yes but, it is not the main method, where you run the code...
+ it is only the method with similar name (public static void main)
+
+4) Why Java is platform independent?
+  Because the Java compiler converts the source code to bytecode
+  Bytecode can be executed on any platform (OS) using JVM(Java Virtual Machine)
+
+5) What are wrapper classes in Java?
+   Class whose object wraps or contains a primitive data types.
+    Example: chocolate - is primitive type, Wrapper class - chocolate in the wrapper for sale
+
+6) Why do we need wrapper classes?
+   To use them in the List, in the Maps..
+
+7) What are constructors in Java?
+ Constructors are the methods to create object of the class and names are the same with class
+
+8) Can we have multiple constructors in the class?, how?
+   Yes we can have multiple constructors using Overloading, changing Parameters
+
+9) What is the difference between Constructor vs Method?
+   Constructor is a function which is the member of a class.
+   Methods consists of statements that may or may not return an output.
+
+   Constructor is a special type of method that has the same name the class name.
+   These methods are used to initialize an object's state.
+
+10)Can we reuse constructors? if yes, how?
+   Yes, with "this"..
+
+11) What is the difference between break and continue statements?
+    What if you have nested loop, what then?
+    Break and continue statements are being used in the loops;
+    break is used stop the loop, continue is used to skip that part in the loop
+
+12) Differentiate between static and non-static methods in Java.
+
+    Static methods can called by name of the class
+    Non static is called by instance(object) of the class.
+
+    static - belongs to class,
+    non-static - belongs to object. example:Car.getWheels();     Car car = new Car();
+                                                                 car.getWheels();
+
+13) Can we call static method using instance variable?
+    Yes,  Example - Math.random VS random.next(Int)
+
+14) What type of the collections do you use?
+    Map is in the "Java Collection Framework" such as Set, List, Map, SortedSet, SortedMap,
+    HashSet, TreeSet, ArrayList, LinkedList, Vector, Collections, Arrays, AbsractCollection
+
+
+15) What is the difference between LinkedHashSet and TreeSet?
+    LinkedHashSet - is holding the elements as they were entered, insertion order
+    TreeSet - from minimum to maximum, alphabetical and numerical order  Person{name, age}
+                                                                                                    ArrayList<Person>
+                                                                                                    sort by age of Person
+16) What is the difference between a local variable and an instance variable?
+    local variable can be used in the method (inside of curly braces)
+    instance variable can be used in class (public String name)
+    braces {}, bracket[]
+
+18) What is 'final' keyword in Java?
+    Using the final keyword means that the value can't be modified in the future
+
+19) What purpose do the keywords final, finally in Java?
+    final is for class, method, or variable so they can't be changed.
+    finally is used in try catch so  the finally code will be executed whether the exception is handled or not
+
+    finally is used in Try and Catch block - it excutes code no matther if Exception is catched or not
+    Final - is non access modifier
+
+20) What are the different ways to handle exceptions?
+
+    throw, try and catch
+
+21)What is the difference between throw and throws?
+
+   throws shows us that method has an exception which is need to be handled
+   throw creating an exception
+
+
+22) What is the difference between an array and an array list?
+
+    * Array  holds values of primitive data type and length should be defined when initializing.
+    * Arraylist holds values of Reference data type, no need to define the size, it is expandable.
+    * ArrayList is dynamic
+    * Arraylist is easy to print
+    * Array needs an extra method to print
+
+23) Which members of class can have access modifiers?
+
+    variable, methods, constructors
+
+24)What is the difference between equals() and == in Java?
+
+    equals is when you're comparing String.. == is when your comparing int, double, float
+
+25)What are the concepts of OOP in Java?
+
+    A PIE: Abstract, polymorphysm, inheritance and encapsulation
+
+26) Difference between String, StringBuilder, and StringBuffer?
+    String is immutable data type,
+    StringBuilder and StringBuffer are mutable data type
+    StringBuilder is fastest dataType
+
+
+    let's move them to ms doc
+

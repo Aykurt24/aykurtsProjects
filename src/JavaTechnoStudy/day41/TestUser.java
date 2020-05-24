@@ -7,11 +7,11 @@ public class TestUser {
 
     @Test
     public void testGetUsername() {
-        User user = new User("admin@techno.com", "123456");
+        User user = new User("admintechno.com", "123456");
 
 
         //check username
-        Assert.assertEquals("admin@techno.com", user.getUsername());
+        Assert.assertEquals("admintechno.com", user.getUsername());
 
         user.setUsername("dos");
 
