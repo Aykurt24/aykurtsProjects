@@ -41,7 +41,7 @@ public class JavaArraysMethods {
         // to search value in SORTED array and return index
         System.out.println("\nto search value in SORTED array and return index");
         int[] numbers3 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        System.out.println("search for 2: " + Arrays.binarySearch(numbers3, 3));
+        System.out.println("search for 2: " + Arrays.binarySearch(numbers3, 3)); // ** 3 is exclusive that's why we are getting second element**
 
     }
 

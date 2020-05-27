@@ -6,12 +6,17 @@ public class SDET extends Employee {
     public SDET(String name, double salary, double coef, double bonus) {
         super(name, salary, coef);
         this.bonus = bonus;
+        super.coef = coef;
+        super.salary = salary;
     }
+
+//    @Override
+//    public double calculateSalary() {
+//        return salary * coef + bonus;
+//    }
 
     @Override
     public double calculateSalary() {
-        return salary * coef + bonus;
+        return super.calculateSalary() + bonus;
     }
-
-
 }

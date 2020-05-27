@@ -6,6 +6,7 @@ public class FourWheelVehicle {
 
     public FourWheelVehicle(String model) {
         this.model = model;
+
     }
 
     public final void print() {

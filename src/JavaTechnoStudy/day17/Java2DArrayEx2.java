@@ -32,8 +32,8 @@ public class Java2DArrayEx2 {
 
         }
         //to print in formatted manner
-//        System.out.printf( "%.2f\n", 0.3333333333 );
-//        System.out.println( String.format( "%.2f", 0.3333333333 ) );
+//       **System.out.printf( "%.2f\n", 0.3333333333 );**
+//       **System.out.println( String.format( "%.2f", 0.3333333333 ) );**
         //part 2. calculate average of
         //         Costco  Walmart  Aldii   AVG
         // water   $0.25   $0.27    $0.30   $0.27

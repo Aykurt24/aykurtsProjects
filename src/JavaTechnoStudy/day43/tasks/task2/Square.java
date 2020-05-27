@@ -6,10 +6,18 @@ public class Square extends Rectangle {
         super(side, side);
     }
 
+    public double getArea() {
+        return Math.pow(super.getWidth(), 2);
+    }
+
+    public double getPerimeter() {
+        return 4 * super.getWidth();
+    }
+
     @Override
     public String toString() {
-        return "Square{" +
-                "side=" + getWidth() +
-                '}';
+        return "Square : " +
+                " Side = " + getWidth() + " Area = " + getArea() +
+                " Perimeter = " + getPerimeter();
     }
 }

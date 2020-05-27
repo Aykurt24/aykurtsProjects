@@ -7,7 +7,7 @@ public class HR {
         System.out.println(employee1);
 
 
-        SDET employee2 = new SDET("Fetih", 120_000, 1, 50_000);
+        SDET employee2 = new SDET("Fetih", 120_000, 1.2, 50_000);
         System.out.println(employee2);
     }
 }

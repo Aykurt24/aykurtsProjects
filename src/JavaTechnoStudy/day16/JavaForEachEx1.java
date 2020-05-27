@@ -6,10 +6,12 @@ public class JavaForEachEx1 {
 //        String[] names = new String[5];
 //        System.out.println( "names: " + Arrays.toString( names ) );
 //
-        int[] numbers = new int[5];
+        double[] numbers = new double[3];
+        numbers[0] = 1.3;
+        numbers[1] = 2.4;
 
-        for (int n : numbers) {
-            System.out.println(n);
+        for (double number : numbers) {
+            System.out.println(number);
         }
 
     }

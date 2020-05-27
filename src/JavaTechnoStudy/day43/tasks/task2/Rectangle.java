@@ -18,11 +18,19 @@ public class Rectangle extends Shape {
         return length;
     }
 
+    public double getArea() {
+        return this.length * this.length;
+    }
+
+    public double getPerimeter() {
+        return this.length + this.width;
+    }
+
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "width=" + width +
-                ", length=" + length +
-                '}';
+        return "Rectangle : " +
+                " Width = " + width +
+                " Length = " + length + " Area = " + getArea() +
+                " Perimeter = " + getPerimeter();
     }
 }
