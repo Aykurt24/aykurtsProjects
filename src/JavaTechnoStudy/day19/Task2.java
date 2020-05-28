@@ -15,6 +15,7 @@ public class Task2 {
     // create a method which counts letters in given string
     public static int letterCount(String str) {
         int counter = 0;
+        //String str = "@2Dogan#%"
 
         char[] chars = str.toCharArray();
         for (char aChar : chars) {
@@ -34,7 +35,7 @@ public class Task2 {
     // create a method which counts digits in given string
     public static int digitCount(String str) {
         int counter = 0;
-
+        //String str = "@2Dog4an#5%"
         char[] chars = str.toCharArray();
         for (char aChar : chars) {
             if (isDigit(aChar)) {

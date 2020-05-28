@@ -10,8 +10,8 @@ public class Task1 {
     public static void main(String[] args) {
         //part 1. create 2D array with names and surnames;
         String[][] fullname = {
-                {"John", "Cameron", "Susan"},
-                {"Travolta", "Mcmillan", "Boyle"},
+                {"John", "Cameron", "Susan"}, // row "0"
+                {"Travolta", "Mcmillan", "Boyle"},// row "1"
         };
         //part 2. print name and surname, without loop
         //ex: John Travolta

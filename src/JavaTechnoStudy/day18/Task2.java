@@ -22,6 +22,14 @@ public class Task2 {
             for (int row = 0; row < array.length; row++) {
                 System.out.print(array[row][col] + " ");
             }
+            System.out.println(" ");
+        }
+        System.out.println("=======================================");
+
+        for (int row = 0; row < array.length; row++) {
+            for (int col = 0; col < array[0].length; col++) {
+                System.out.print(array[row][col] + " ");
+            }
             System.out.println();
         }
     }

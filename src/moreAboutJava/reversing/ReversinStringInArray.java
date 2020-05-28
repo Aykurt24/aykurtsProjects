@@ -1,4 +1,4 @@
-package moreAboutJava.Reversing;
+package moreAboutJava.reversing;
 
 public class ReversinStringInArray {
 

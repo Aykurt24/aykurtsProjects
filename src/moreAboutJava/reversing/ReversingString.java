@@ -1,4 +1,6 @@
-package moreAboutJava.Reversing;
+package moreAboutJava.reversing;
+
+import java.util.Arrays;
 
 public class ReversingString {
     public static void main(String[] args) {
@@ -12,11 +14,13 @@ public class ReversingString {
             letterIndex++;
         }
 
+        System.out.println("Char Array " + Arrays.toString(letters));
+
         String reverseStr = "";
         for (int i = 0; i < str.length(); i++) {
             reverseStr = reverseStr + letters[i];
         }
-        System.out.println(reverseStr);
+        System.out.println("String " + reverseStr);
     }
 
 

@@ -1,4 +1,4 @@
-package moreAboutJava.FindYourShoes;
+package moreAboutJava.findYourShoes;
 
 public class Walking extends Shoe {
     public final boolean goreTex;

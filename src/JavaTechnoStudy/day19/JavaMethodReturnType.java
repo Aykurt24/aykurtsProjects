@@ -13,6 +13,6 @@ public class JavaMethodReturnType {
 
     public static int sumOfTwoNumbers(int a, int b) {
         int result = a + b;
-        return result;
+      return result;
     }
 }

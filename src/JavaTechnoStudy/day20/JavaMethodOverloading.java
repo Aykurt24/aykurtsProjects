@@ -30,4 +30,8 @@ public class JavaMethodOverloading {
         //you code
     }
 
+    public static void main(String[] args) {
+        printNameAndAge(24, "Yakup");
+        printNameAndAge("Dogan", 24);
+    }
 }

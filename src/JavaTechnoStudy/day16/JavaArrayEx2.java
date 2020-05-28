@@ -17,7 +17,7 @@ public class JavaArrayEx2 {
         numbers[2] = 3;
 //        numbers[3]= 4;
 
-        int[] ages = {20, 25, 38, 40, 50};
+        int[] ages = {25, 20, 38, 40, 50};
 
 
         //class Arrays

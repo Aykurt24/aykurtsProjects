@@ -11,7 +11,7 @@ public class Task3 {
     }
 
     // create method print given names in one line
-    public static void printNames(String... names) {
+    public static void printNames(String... names) { //String[]
         System.out.println(Arrays.toString(names));
 
         //2.way
