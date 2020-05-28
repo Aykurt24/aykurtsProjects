@@ -10,7 +10,6 @@ public class Task1 {
         colors.add("Green");
         colors.add("Blue");
 
-
         printColorsLines(colors);
         addToFirstPosition(colors, "Yellow");
         addToFirstPosition(colors, "Pink");
@@ -28,7 +27,7 @@ public class Task1 {
     public static void printColorsLines(ArrayList<String> colors) {
         // 1. way
         for (String color : colors) {
-            System.out.println(color);
+            System.out.print(color + " ");
         }
 
         // 2. way

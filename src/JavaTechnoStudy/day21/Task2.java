@@ -9,15 +9,27 @@ public class Task2 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 
-        Random random = new Random();
-
-        list.add(random.nextInt(5));
-        list.add(random.nextInt(5));
-        list.add(random.nextInt(5));
-        list.add(random.nextInt(5));
-
-        System.out.println(list);
+        RandomNumber(list);
+//        Random random = new Random();
+//
+//        list.add(random.nextInt(5));
+//        list.add(random.nextInt(5));
+//        list.add(random.nextInt(5));
+//        list.add(random.nextInt(5));
+//
+//        System.out.println(list);
     }
 
+    public static void RandomNumber(ArrayList<Integer> numbers) {
+
+        Random random = new Random();
+
+        for (int i = 0; i < 5; i++) {
+            numbers.add(random.nextInt(5)); // 0 to 5 but 5 is exclusive
+        }
+        System.out.println(numbers);
+
+    }
 
 }
+

@@ -9,14 +9,14 @@ public class JavaAutoboxingUnboxing {
 
         numbers.add(15);
         numbers.add(1);
-        Integer integer1 = new Integer(5);
+        Integer integer1 = 5;
         numbers.add(integer1);
 
         //Automatic conversion of primitive types to the object of their
         // corresponding wrapper classes is known as autoboxing.
         // converting primitive to reference type(wrapper class)
-        int i = 5;
-        numbers.add(i);
+        int i = 5; // primitive date type
+        numbers.add(i); // wrapper class
 
         Integer integer = numbers.get(0);
         // Unboxing: It is just the reverse process of autoboxing.
@@ -25,6 +25,6 @@ public class JavaAutoboxingUnboxing {
         // converting reference type to primitive(wrapper class)
 
         // unboxing: get elemets from reference and put into primitive
-        int j = numbers.get(0);
+        int j = numbers.get(0); // Wrapper class to primitive date type
     }
 }
