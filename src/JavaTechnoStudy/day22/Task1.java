@@ -7,11 +7,18 @@ public class Task1 {
     public static void main(String[] args) {
         ArrayList<Double> doubles = generateList();
 
+        System.out.println(doubles);
+
         Double secondElement = retrieveElement(doubles, 1);
+        System.out.println("Second Element in the list : " + secondElement);
 
         updateElement(doubles, 1, 100.0);
 
+        System.out.println("After updating : " + doubles);
+
         removeThirdElement(doubles);
+
+        System.out.println("After removing third element from the list : " + doubles);
     }
 
     // create a method that will generate arrayList of double with random double values

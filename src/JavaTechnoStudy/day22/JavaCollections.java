@@ -21,17 +21,22 @@ public class JavaCollections {
 
         // Collections.max() - to get maximum value in arrayList
         Integer max = Collections.max(numbers);
+        System.out.println("Max number : " + max);
 
         // Collections.min() - get minimum value in arrayList
         Integer min = Collections.min(numbers);
+        System.out.println("Min number : " + min);
 
-        // Collections.reverse(); to reverse arrayList
+        //Collections.reverse(); to reverse arrayList
         Collections.reverse(numbers);
+        System.out.println("Reversing List : " + numbers);
 
         // Collections.fill(); to fill out you arrayList
         Collections.fill(numbers, 101);
+        System.out.println(numbers);
 
         // Collections.replaceAll(); to replace some elements with new value
         Collections.replaceAll(numbers, 101, 5);
+        System.out.println(numbers);
     }
 }

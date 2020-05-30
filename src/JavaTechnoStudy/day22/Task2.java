@@ -7,13 +7,17 @@ public class Task2 {
     public static void main(String[] args) {
         ArrayList<String> languages = languageList();
 
-//        printReverse(languages);
+        printReverse(languages);
+        System.out.println("Reversing list : " + languages);
 
-//        printThree(languages);
+        printThree(languages);
+
 
         ArrayList<String> specifiedLanguages = specifiedLanguages(languages);
+        System.out.println("\nThe languages which start with T or end with sh" + specifiedLanguages);
 
         ArrayList<String> withoutEnglish = withoutEnglish(languages);
+        System.out.println("The list without English : " + withoutEnglish);
     }
 
     // create a method that will return list of languages
@@ -50,8 +54,9 @@ public class Task2 {
     // create a method that will print only first three elements in list
     public static void printThree(ArrayList<String> list) {
 //        1 way
+        System.out.print("First three languages in the list : ");
         for (int i = 0; i < 3; i++) {
-            System.out.println(list.get(i));
+            System.out.print(list.get(i) + " ");
         }
 
 //        // 2 way
