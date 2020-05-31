@@ -52,7 +52,8 @@ public class HousePrices extends Users {
         houseTypeToPrice();
         ConditionToPrice();
         roomCountToPrice();
-        price = ((price * getStateTax().getTax()) / 100) + price;
+        StatesTax st = getStateTax();
+        price = ((price * st.getTax()) / 100) + price;
 
         return price;
 
