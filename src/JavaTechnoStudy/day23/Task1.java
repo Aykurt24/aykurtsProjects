@@ -1,6 +1,7 @@
 package JavaTechnoStudy.day23;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class Task1 {
@@ -92,9 +93,17 @@ public class Task1 {
         addElements(numbers, 1, 6, 10, 90);
 
         System.out.println(numbers);
+        System.out.println("==========================");
 
         printSet(numbers);
 
+        System.out.println("==========================");
+
+        System.out.println(convertToArrayList(numbers));
+
+        System.out.println("==========================");
+
+        System.out.println(Arrays.toString(convertToArray(numbers)));
 
     }
 

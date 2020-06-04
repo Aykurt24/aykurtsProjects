@@ -13,6 +13,8 @@ public class JavaSet1 {
         set.add("red");
         set.add("rED");
 
+        System.out.println(set);
+
     }
 
 }

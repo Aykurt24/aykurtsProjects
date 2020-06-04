@@ -12,19 +12,22 @@ public class School {
         System.out.println("Initializer Block 1");
     }
 
-    //this code will execute before every constructor call
-    {
-        System.out.println("Initializer Block 2");
-    }
 
     public School() {
         System.out.println("Constructor");
     }
 
-    public static void main(String[] args) {
-        System.out.println("main");
+    //this code will execute before every constructor call
+    static {
+        System.out.println("Initializer Block 2");
+    }
 
+
+    public static void main(String[] args) {
+
+        System.out.println("main");
         new School();
+
     }
 
 }

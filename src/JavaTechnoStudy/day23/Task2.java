@@ -28,7 +28,7 @@ public class Task2 {
         return set;
     }
 
-    //3. check if you have duplication in you array
+    //3. check if you have duplication in your array
     public static boolean hasDuplication(String[] names) {
         HashSet<String> namesSet = convertToHashSet(names);
         int setSize = namesSet.size();
@@ -40,6 +40,7 @@ public class Task2 {
     //4. check if you have name "Ali" in you set/list,
     // if you have, print he is best mentor ever
     // else, print I wish we had him
+
     public static boolean hasName(HashSet<String> set, String name) {
         return set.contains(name);
     }

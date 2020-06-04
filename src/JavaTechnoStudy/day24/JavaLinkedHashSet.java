@@ -29,4 +29,4 @@ public class JavaLinkedHashSet {
 }
 //HashSet gives output randomly
 //LinkedHashSet gives output in order
-//hashset, crazy order/ linked hashset , insertion order / tree, ascending order
+//HashSet, crazy order/ linked HashSet , insertion order / tree, ascending order

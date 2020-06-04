@@ -11,7 +11,7 @@ public class Animal {
     private String originContinent;
 
     public Animal(int id, String name, String color, int age, Gender gender, String orgin) {
-        setId(id);
+        setId(id); // == this.id = id;
         setName(name);
         setColor(color);
         setAge(age);
@@ -72,6 +72,7 @@ public class Animal {
     }
 
     public int getAge() {
+
         return age;
     }
 

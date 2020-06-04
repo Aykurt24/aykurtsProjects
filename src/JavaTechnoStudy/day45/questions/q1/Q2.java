@@ -1,10 +1,10 @@
 package JavaTechnoStudy.day45.questions.q1;
 
-class A {
+class A {                       // Grand Parent
     String s = "Class A";
 }
 
-class B extends A {
+class B extends A {                 // Parent
     String s = "Class B";
 
     {
@@ -12,7 +12,7 @@ class B extends A {
     }
 }
 
-class C extends B {
+class C extends B {                 // Child
     String s = "Class C";
 
     {
