@@ -18,17 +18,17 @@ public class JavaSetMethods {
         setB.add(6);
         setB.add(7);
 
-        //To find union
+//        //To find union
 //        setA.addAll(setB); // setA = setA + setB
 //        System.out.println("Union of A and B: " + setA);
 
-        // To find intersection, retain common elements
+//        // To find intersection, retain common elements
 //        setA.retainAll(setB);
 //        System.out.println("Intersection of A and B: " + setA);
 
         // To find the difference, removing common elements
-        setA.removeAll(setB);
-        System.out.println("Difference between A and B: " + setA);
+        setB.removeAll(setA);
+        System.out.println("Difference between A and B: " + setB);
 
 
     }

@@ -30,12 +30,12 @@ public class JavaTreeSet {
 
         // maintains insertion(order of adding) elements to set
         LinkedHashSet<String> linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add("Apple");
         linkedHashSet.add("One");
         linkedHashSet.add("Two");
         linkedHashSet.add("Three");
         linkedHashSet.add("Four");
         linkedHashSet.add("Five");
-        linkedHashSet.add("Apple");
         System.out.println("LinkedHashSet: " + linkedHashSet);
 
 

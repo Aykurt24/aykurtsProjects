@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 public class JavaLinkedHashSet {
 
     public static void main(String[] args) {
-//        Set<Character> set = new LinkedHashSet<>();
+    //  Set<Character> set = new LinkedHashSet<>();
 
         HashSet<String> set = new HashSet();
         set.add("One");
@@ -18,6 +18,7 @@ public class JavaLinkedHashSet {
 
 
         LinkedHashSet<String> set1 = new LinkedHashSet();
+        set1.add("six");
         set1.add("One");
         set1.add("Two");
         set1.add("Three");
@@ -27,6 +28,6 @@ public class JavaLinkedHashSet {
 
     }
 }
-//HashSet gives output randomly
-//LinkedHashSet gives output in order
-//HashSet, crazy order/ linked HashSet , insertion order / tree, ascending order
+//  HashSet gives output randomly
+//  LinkedHashSet gives output in order
+//  HashSet, crazy order/ linked HashSet , insertion order / treeSet, ascending order
