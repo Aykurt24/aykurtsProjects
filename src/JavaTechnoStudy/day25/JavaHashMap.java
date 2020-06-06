@@ -42,20 +42,28 @@ public class JavaHashMap {
         map.put("QA tester", 390_000d);
 
         Double sdetSalary = map.get("SDET");
+        Double salaryOfP = map.get("Principal");
+        Double salaryOfQa = map.get("QA tester");
+
+        System.out.println("SDET Salary : " + sdetSalary);
+
 
 //        public boolean containsKey(Object key):
 //        This method is used to search the specified key from this map.
         boolean hasQATester = map.containsKey("QA tester");
+        boolean hasSDET = map.containsKey("SDET");
+        boolean hasValueOfP = map.containsValue(390_000d);
 
 //        public Set keySet():
 //        This method is used to return the Set view containing all the keys.
         Set<String> allKeysInMap = map.keySet();
-//        System.out.println(allKeysInMap);
+        System.out.println("All keys : " + allKeysInMap);
 
 //        public Set entrySet(): This method is used to return the Set view containing all the keys and values.
         Set<Map.Entry<String, Double>> entries = map.entrySet();
         //Entry<String, Double>
         // is build-in reference type that stores key and value
+        System.out.println("Entries : " + entries);
 
         for (Map.Entry<String, Double> row : entries) {
             System.out.println("Key: " + row.getKey() + "   Value: " + row.getValue());
@@ -63,9 +71,9 @@ public class JavaHashMap {
                 System.out.println("Dream salary!!!");
             }
         }
-        // .values() method  returns all values in map
+//         .values() method  returns all values in map
         ArrayList<Double> salaries = new ArrayList<>(map.values());
-        System.out.println("All Values in map: " + map.values());
+        System.out.println("All Values in map: " + salaries);
 
     }
 

@@ -13,11 +13,13 @@ public class Task1 {
         login.put("dos", "645hjQWE%^*");
         login.put("technostudy", "2eG04M2oa20iL");
 
-        HashMap<String, String> secondMap = copyMap(login);
+        HashMap<String, String> secondMap = copyMap(login); //  HashMap<String, String> secondMap = new HashMap(login);
         System.out.println("login: " + login);
         removeAll(login);
         System.out.println("login: " + login);
-        System.out.println("second:" + secondMap);
+        printLogin(secondMap); //System.out.println("second:" + secondMap);
+        getSize(secondMap); // int sizeOfMap = secondMap.keySet().size();
+        removeAll(secondMap);
 
 //        printLogin(login);
 //        removeAll(login);
@@ -26,13 +28,13 @@ public class Task1 {
 
     // create method that print you map
     private static void printLogin(HashMap<String, String> login) {
-        System.out.println("My fav method: " + login);
+        System.out.println("Second Map: " + login);
     }
 
     // create method that return size of your map
     public static int getSize(HashMap<String, String> map) {
         map.keySet().size();// gives size of keys in map
-
+        System.out.println("Size of Map " + map.keySet().size());
         return map.size();
     }
 
@@ -40,6 +42,7 @@ public class Task1 {
     public static void removeAll(HashMap<String, String> map) {
         // 1. way
         map.clear();// removes everything from map
+        System.out.println(map);
 
         // 2. way
 //        Set<String> keys = new HashSet<>(map.keySet());

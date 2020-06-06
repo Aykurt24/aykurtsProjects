@@ -12,8 +12,9 @@ public class Task2 {
 
         for (int i = 0; i < color.length; i++) {
             result.put(i + 1, color[i]);
+              // (Object Key , Object Value)
         }
-
+        System.out.println("HashMap : " + result);
         return result;
     }
 
@@ -34,8 +35,11 @@ public class Task2 {
         boolean hasKey2 = hasKey(colorMap, 2);
 
         boolean hasValueGreen = hasValue(colorMap, "Green");
+        System.out.println("Has Green : " + hasValueGreen);
 
         boolean hasValueWhite = hasValue(colorMap, "White");
+        System.out.println("Has White : " + hasValueWhite);
+
 
     }
 

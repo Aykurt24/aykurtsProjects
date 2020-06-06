@@ -17,5 +17,12 @@ public class JavaTreeMap {
 
         TreeMap<String, Integer> treeMap = new TreeMap<>(hashMap);// copy from map above
         System.out.println("TreeMap: " + treeMap);
+
+        TreeMap<Integer, String> treeMap1 = new TreeMap<>();
+        treeMap1.put(3, "Three");
+        treeMap1.put(4, "Four");
+        treeMap1.put(1, "One");
+        System.out.println("Tree Map1 : " + treeMap1);
+
     }
 }

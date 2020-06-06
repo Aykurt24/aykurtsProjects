@@ -46,6 +46,11 @@ public class Task3 {
 
         return result;
     }
+
+    public static void main(String[] args) {
+        System.out.println(getPositionSalaries());
+        System.out.println(getPositionSalaries2());
+    }
 }
 
 // create method that calculates total compensation of positions

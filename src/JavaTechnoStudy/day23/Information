@@ -6,4 +6,4 @@
 @         arr.length method                                                                size().arrL method
 
                Set                                          VS                               ArrayList
-@          No duplication                                                                  Allows duplication
+@      does not allow duplication                                                         Allows duplication

@@ -45,6 +45,7 @@ public class Task2 {
 
     public static void main(String[] args) {
         HashMap<String, ArrayList<String>> memberMap = getMemberMap();
+        System.out.println(memberMap);
     }
 
 }
