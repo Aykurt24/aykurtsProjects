@@ -1,23 +1,23 @@
-package JavaTechnoStudy.day50;
+package JavaTechnoStudy.day50.tasks.task1.msFiles;
 
 public class WordFile implements MSOffice {
     @Override
     public String open() {
-        return null;
+        return "open Word app";
     }
 
     @Override
     public String read() {
-        return null;
+        return "read .docx";
     }
 
     @Override
     public String save() {
-        return null;
+        return "save .docx";
     }
 
     @Override
     public String close() {
-        return null;
+        return "close Word app";
     }
 }

@@ -1,4 +1,4 @@
-package JavaTechnoStudy.day50;
+package JavaTechnoStudy.day50.tasks.task1.msFiles;
 
 public interface MSOffice {
     String open();
@@ -8,5 +8,4 @@ public interface MSOffice {
     String save();
 
     String close();
-
 }
