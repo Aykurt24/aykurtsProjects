@@ -20,6 +20,9 @@ public class DosCafe {
                 return "fresh";
             }
         };
+
+        baklava.print();
+        salad.print();
     }
 
 

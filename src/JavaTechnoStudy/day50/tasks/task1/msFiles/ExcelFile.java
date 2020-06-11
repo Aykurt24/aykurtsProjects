@@ -1,27 +1,30 @@
 package JavaTechnoStudy.day50.tasks.task1.msFiles;
 
 public class ExcelFile implements MSOffice {
+
     @Override
     public String open() {
-        return "open Excel app";
+        return null;
     }
 
     @Override
     public String read() {
-        return "read .xlsx";
+        return null;
     }
 
     @Override
     public String save() {
-        return "save .xlsx";
+        return null;
     }
 
     @Override
     public String close() {
-        return "close Excel app";
+        return null;
     }
 
     public String formula() {
         return "SUM(B10:B10)";
     }
+
+
 }

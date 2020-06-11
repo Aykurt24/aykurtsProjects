@@ -20,4 +20,8 @@ public class WordFile implements MSOffice {
     public String close() {
         return "close Word app";
     }
+
+    public String maxWords() {
+        return "1_000_000 words";
+    }
 }

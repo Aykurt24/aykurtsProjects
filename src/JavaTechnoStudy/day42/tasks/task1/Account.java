@@ -8,7 +8,6 @@ public class Account {
     private double balance;
     private Currency currency;
 
-
     public Account(Currency currency) {
         this.currency = currency;
     }

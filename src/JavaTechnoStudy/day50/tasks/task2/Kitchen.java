@@ -8,9 +8,8 @@ public class Kitchen {
         System.out.println("===========" + food.getClass().getSimpleName() + "==================");
 
         System.out.println("star cooking");
-
         if (food instanceof AdanaKebab) {
-            AdanaKebab kebab = (AdanaKebab) food;
+            AdanaKebab kebab = (AdanaKebab) food; // AdanaKebab kebab = new AdanaKebab ();
             System.out.println(kebab.marinade());
             System.out.println(kebab.grill());
         } else if (food instanceof Borsh) {

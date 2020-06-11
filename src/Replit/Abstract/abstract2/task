@@ -1,0 +1,49 @@
+ 6 classes created Calculator, Sum, Divide, Multiply , Substract , Main
+
+Make Calculator is a super class.
+
+in the super class
+    create a abstract method name is calculating
+           there are two int parameters
+            return type is int
+
+
+in the Sum class
+       extends the Calculator class
+         override the calculating method in the super class
+            sum two parameters and return the result
+
+in the Divide class
+       extends the Calculator class
+         override the calculating method in the super class
+            divide two parameters and return the result
+
+in the Multiply class
+       extends the Calculator class
+         override the calculating method in the super class
+            multiply two parameters and return the result
+
+in the Substract class
+       extends the Calculator class
+         override the calculating method in the super class
+            substract two parameters and return the result
+
+in the main class
+   create Scanner object
+   create two int and assign scanner to these two int variables
+
+call the calculating method in the Sum class
+print the result
+call the calculating method in the Divide class
+print the result
+call the calculating method in the Multiply class
+print the result
+call the calculating method in the Substract class
+print the result
+
+
+
+
+
+
+

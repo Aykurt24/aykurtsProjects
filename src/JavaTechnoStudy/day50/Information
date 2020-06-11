@@ -1,0 +1,18 @@
+
+Java 8 introduces the “Default Method” or (Defender methods) feature, which allows the developer to add new methods to
+the interfaces without breaking their existing implementation. It provides the flexibility to allow interface to define
+implementation which will use as the default in a situation where a concrete class fails to provide an implementation
+for that method.
+
+        Abstract Class                                           VS                        Interface Class
+    @ The abstract class can define constructors.                       @ It doses not allow to define constructors.
+    @ It does not allow Multiple Inheritance.                           @ It allows Multiple Inheritance.
+    @ It allows create method with body.                                @ It does not allow to create method with body.
+
+                                @@@@ Difference Between Default Method and Regular Method @@@@
+
+When we extend an interface that contains a default method, we can perform following,
+
+@ Not override the default method and will inherit the default method.
+@ Override the default method similar to other methods we override in subclass..
+@ Redeclare default method as abstract, which force subclass to override it.

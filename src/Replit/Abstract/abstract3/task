@@ -1,0 +1,90 @@
+4 classes created Phone, Apple, Samsung, Main
+
+Make Phone a super class.
+
+Create static String arraylist name is "cart"
+
+create method name is getSum
+One String as a parameter
+and return type is int
+        get the String remove all non numeric letters or special characters
+        then change String to int
+        Return the Num
+
+create one abstract method name is options
+parameter is two Strings
+return type is String
+
+
+in the Apple class
+    extends the Phone class
+override the options method
+     there are 2 strings as a parameter
+     return type is String
+
+   if String one is 64 GB and 5.5 inch
+        add in the cart arraylist  "$750"
+
+   if String one is 64 GB and 6.5 inch
+        add in the cart arraylist  "$850"
+
+   if String one is 128 GB and 5.5 inch
+        add in the cart arraylist  "$950"
+
+   if String one is 128 GB and 6.5 inch
+        add in the cart arraylist  "$1200"
+
+
+in the Samsung class
+  extends the Phone class
+override the options method
+     there are 2 strings as a parameter
+     return type is String
+
+   if String one is 256 GB and 5.5 inch
+        add in the cart arraylist  "$1000"
+
+   if String one is 256 GB and 7.5 inch
+        add in the cart arraylist  "$1200"
+
+   if String one is 512 GB and 5.5 inch
+        add in the cart arraylist  "$1300"
+
+   if String one is 512 GB and 6.5 inch
+        add in the cart arraylist  "$1400"
+
+in the Main class
+    create scanner class object
+       create four Strings str1 , str2 , str3 , str4 and assign scanner object to Strings
+
+Create object for apple class
+call the options method in apple class
+     options parameters are str1 , str2
+
+
+Create object for samsung class
+call the options method in samsung class
+    options parameters are str3 ,str4
+
+call the getSum method in the Phone class for both of the objects
+
+print the sum of two objects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

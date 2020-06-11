@@ -6,7 +6,7 @@ interface Animal {
 interface Food {
 }
 
-public class Bird implements Animal {
+public class Bird implements Animal, Food {
 
     public static void main(String[] args) {
         Bird bird = new Bird();

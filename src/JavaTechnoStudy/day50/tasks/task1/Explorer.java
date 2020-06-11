@@ -14,6 +14,9 @@ public class Explorer {
         MSOffice file3 = new ExcelFile();
         workWithFile(file3);
 
+        MSOffice file4 = new WordFile();
+        workWithFile(file4);
+
 
     }
 
@@ -26,11 +29,14 @@ public class Explorer {
 
 
         if (officeFile instanceof PowerPointFile) {
-            PowerPointFile pptFile = (PowerPointFile) officeFile;
+            PowerPointFile pptFile = (PowerPointFile) officeFile; // down casting
             System.out.println(pptFile.slides());
         } else if (officeFile instanceof ExcelFile) {
             ExcelFile excelFile = (ExcelFile) officeFile;
             System.out.println(excelFile.formula());
+        } else if (officeFile instanceof WordFile) {
+            WordFile wordFile = (WordFile) officeFile;
+            System.out.println(wordFile.maxWords());
         }
 
 
