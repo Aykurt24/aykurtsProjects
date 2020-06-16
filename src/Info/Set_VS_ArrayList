@@ -1,0 +1,6 @@
+
+                Set                                          VS                           ArrayList
+
+@      does not allow duplication                                                    Allows duplication
+@      I can not use get method to get data. I need to use foreach loop.             I can use a get method to get data
+@      In the set i can get data in different ways

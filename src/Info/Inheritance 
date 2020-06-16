@@ -1,0 +1,21 @@
+
+                                            @@@@ INHERITANCE @@@@
+
+
+      @ In Java, it possible to inherit attributes and methods from one to another.
+
+      Subclass (child) ==> the class that inherits from another class.
+
+      Superclass (parent) ==> the class being inherited form a class
+
+      @ To inherit from a class, use the "EXTENDS" keyword.
+
+
+                                    ???? Why and When To Use Inheritance ????
+
+  @ It is useful for code reusability : reuse attributes and methods of an existing class when you create a new class.
+
+
+
+
+

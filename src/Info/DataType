@@ -1,0 +1,20 @@
+
+There are two data type in Java. Primitive and Non-Primitive data type.
+
+Primitive Data Type        Size             Stores
+
+@ byte                ==>  1 byte           Whole Number         =
+@ short               ==>  2 byte           Whole Number            = Integer
+@ int                 ==>  4 byte           Whole Number            = Types
+@ long                ==>  8 byte           Whole Number         =
+@ float               ==>  4 byte           Fractional Number    == Floating Point
+@ double              ==>  8 byte           Fractional Number    == Types
+@ boolean             ==>  1 bit            True or False
+@ char                ==>  2 byte           Single charter or letter or ASCII
+
+Non Primitive Data Type
+
+@ Strings
+@ Arrays
+@ Classes
+@ Interface

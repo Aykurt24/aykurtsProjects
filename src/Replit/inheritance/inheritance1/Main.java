@@ -24,6 +24,7 @@ class Main {
 
         Manager manager = new Manager(ManagerName, ManagerDepartment, ManagerNumberOfEmployee, ManagerSalary);
         System.out.println(manager);
+        System.out.println();
         System.out.println(new Worker(workerName, workerDepartment, workerHourlyIncome));
 
 

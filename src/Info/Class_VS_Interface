@@ -1,0 +1,18 @@
+
+
+                Class                                  VS                        Interface
+
+  @ Class can define constructors.                                    @ It doses not allow to define constructors.
+  @ It does not allow Multiple Inheritance.                           @ It allows Multiple Inheritance.
+  @ It allows create method with body.                                @ It does not allow to create method with body.
+  @ The keyword used to create a class is "class"                     @ The keyword used to create a class is "interface"
+  @ A class can be instantiated.                                      @ An interface can not be instantiated
+  @ It can be inherit another class.                                  @ It can not be inherit another class
+  @ It can not contain Abstract methods.                              @ It can contain Abstract methods only.
+  @ Variables and methods in a class can be declared using.           @ All variables and methods in a interface are
+  any access specifier (public,private,protected,default).            declared as public.
+  @ Variables in a class can be static, final or neither.             @ All variables are static and final.
+
+
+                                           !! Interface is not a class !!
+

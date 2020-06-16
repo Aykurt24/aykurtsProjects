@@ -1,0 +1,7 @@
+
+
+
+                Abstract Class                             VS                             Interface
+     @ The abstract class can define constructors.                       @ It doses not allow to define constructors.
+     @ It does not allow Multiple Inheritance.                           @ It allows Multiple Inheritance.
+     @ It allows create method with body.                                @ It does not allow to create method with body.

@@ -1,0 +1,15 @@
+Create custom interface StringSet with methods:
+
+    Void add (String s)
+    void remove (String s)
+    int size ();
+    void clean (); // remove all string from StringSet
+    boolean isEmpty ();
+
+    Create SimpleStringSet that stores String in unique // no duplication
+
+    Set interface
+    HashSet class
+    StringSet interface
+    SimpleStringSet class
+

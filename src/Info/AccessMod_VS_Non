@@ -1,0 +1,24 @@
+
+@ Access Modifiers ==> Controls the access level.
+@ Non-Access Modifiers ==> do not control access level but provides other functionality.
+
+                       Access Modifiers                   VS                   Non-Access Modifiers
+
+                                               ====== For Class ======
+
+@ Public Class is accessible by any other class.                     @ Final Class can not be inherited by other class.
+@ Default Class is only accessible by classes in the same package.   @ Abstract Class can not be used to create objects.
+                                                                      It must be inherited from other class to reach it.
+
+                                ====== For attributes, methods and constructors ======
+
+@ Public The code is accessible for all classes.                    @ Final Attributes and methods cannot be overridden.
+@ Private The code is only accessible within in the declared class. @ Static Attributes and methods belongs to the class
+                                                                      rather than an object.
+@ Default The code is only accessible in the same package.          @ Abstract Can only be used in an abstract class and
+                                                                      can only be used methods. The methods does not
+                                                                      have body. The body provided by the subclass.
+@ Protected The code is accessible in the same package and subclass.
+
+
+                                !!!! Transient == Synchronized == Volatile !!!

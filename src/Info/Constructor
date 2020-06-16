@@ -1,0 +1,12 @@
+                      @@@ CONSTRUCTOR @@@
+
+@ Java constructor is special methods that is used to initialize objects
+@ Constructor name must match with the class name
+@ it can not have return type
+@ Constructor is called when the object is created
+@ We can overload it
+@ We can create default constructor method.
+@ it can have parameters which is used to initialize attributes. (You can have as many parameters as you want)
+@ We can call a constructor inside of the other constructors.
+@ We can call constructors in Super classes.
+

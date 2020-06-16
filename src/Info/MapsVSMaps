@@ -1,0 +1,21 @@
+
+
+                                    ~~~ Differences between Maps ? ~~~~
+
+@ HashMap ==> makes no guarantees on the iteration order of the map. Also addition and removal of any elements might
+    change its iteration order.
+
+@ LinkedHashMap ==> it defines the iteration order which is the order in which keys were inserted into the map.
+
+@ TreeMap ==> on the order hand, is iterated accordingly to the natural ordering of its keys.
+
+@ HashMap and LinkedHashMap permits null value and null key but TreeMap permits only null values (not null keys).
+
+
+                                    ~~~ Which implementation to use ? ~~~
+
+@ We can use HashMap when performance is critical and ordering of keys doesn't matter.
+
+@ We can use TreeMap when keys needs to be ordered using their natural ordering.
+
+@ We can use LinkedHashMap if insertion order of the keys should be preserved.

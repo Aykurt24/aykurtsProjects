@@ -1,0 +1,27 @@
+
+
+                                 ~~~~ Methods for MAP ~~~
+
+                @ map.put (Object key, Object value) ==> to add Object key and value to the HashMap.
+
+                @ map.putAll ==> to add a HashMap to another HashMap.
+                @ 2. way ==> HashMap<String, Double> thirdMap = new HashMap<>(map);
+
+                @ map.remove (Object key) ==> to remove key from HashMap or
+                @ map.remove (Object key, Object value) ==> to remove key and value from HashMap.
+
+                @ map.clear ==> remove everything from the Map.
+
+                @ map.get (Object key) ==> to get value
+
+                @ map.containsKey ==> to check map has the key which we are looking for.
+
+                @ map.containsValue ==> to check map has the value which we are looking for.
+
+                @ map.keySet() ==> to get all keys from the HashMap.
+
+                @ map.entrySet() ==> to get all keys and values from the HashMap.
+
+                @ map.values() ==> to get all values from the HashMap.
+
+                @ map.keySet().size() == to get size of HashMap.

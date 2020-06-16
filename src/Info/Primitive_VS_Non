@@ -1,0 +1,10 @@
+
+
+                    Primitive Data Types                  VS                    Non-Primitive Data Types
+
+                  @ are already defined.                                       @ are created by programmer.
+                  @ can not call methods for certain operation.                @ can call.
+                  @ have always a value.                                       @ can be null.
+                  @ start with a lowercase letter.                             @ start with uppercase letter.
+                  @ The size of a primitive type depends on the data type.     @ have all the same size.
+

@@ -1,0 +1,8 @@
+
+           Static Methods                     Vs               Non-Static Methods
+
+   @ can access only static members                       @ can access both static and non-static members
+   @ use compile time binding or early                    @ run time binding or dynamic binding
+   @ can not be overridden                                @ can be overridden
+   @ occupies less space                                  @ may occupy more space
+   @ is declared using static keyword                     @ it does not require any special keyword.

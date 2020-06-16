@@ -1,0 +1,34 @@
+
+                      Constructor                   VS                                Methods
+ @ Constructor name must match with the class name.    @ Can have the same name, but we can have different name as well.
+ @ does not have return type.                          @ Always have a return type
+ @ I need to create a object to use Constructor.       @ I do not have to create an object because i can use a static
+                                                        keyword to call method.
+ @ Default method created by Java.                     @ Default method not created by Java.
+
+
+
+What are your daily activities (What do you do when you are going to work) (Daily routine) All same question?
+
+I am going to work at 8:45 am because I have a daily stand up at 9 am. In the daily stand up We are talking on
+what I did yesterday What I am going to do today and is there any blockers.
+
+After that it is depend on my sprint. If we just started sprint, I am attending the sprint planning meeting.
+In the sprint planning we are talking about which user stories we are going to work on.
+
+If it is second or third day in the sprint probably, I don’t have any user stories in the QA so
+I am creating the test cases for the user stories and also I am working on automating the test cases from the regression.
+
+If it is middle of the sprint, I am testing the user stories in the sprint.
+
+If it is end of the sprint, I am attending the sprint review and sprint retro meetings.
+In the sprint review we are reviewing the user stories which we worked on or doing demo.
+In the retro we are talking what we did good in the sprint and what we need to improve.
+
+
+
+
+What is this mean “I am working on automating the test cases from the regression”
+
+	Regression: Before each deploy, we are doing a regression test and it is basically testing the all functionalities
+	in the application.

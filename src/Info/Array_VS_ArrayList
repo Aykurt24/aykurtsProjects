@@ -1,0 +1,8 @@
+
+
+              Array                                           VS                              ArrayList
+
+@         Fixed size                                                                       Dynamic size (resizable)
+@         Primitive and objects                                                            Just objects
+@         part of core java                                                                part of collection framework
+@         arr.length method                                                                size().arrL method

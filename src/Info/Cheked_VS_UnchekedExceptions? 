@@ -1,0 +1,17 @@
+
+@ Checked exceptions are before I run (Execute) the code. I am able to see the error. Java letting me know. I am usually
+using try and catch to handle it.
+@ We can handle it by using try catch block and throws keyword. Otherwise the program will give a compilation error.
+
+
+
+@ Uncheked exceptions are not checked at complie time.
+@ If we did not handle or declare that exception the program won't give compilation error
+@ All uncheked exceptions are sub classes of Runtime Exception class.
+    1- NullPointerException
+    2- ArrayIndexOutOfBoundException
+    3- ArithmeticException
+    4- IllegalArgumentException  ==>
+    5- NumberFormatException
+
+
